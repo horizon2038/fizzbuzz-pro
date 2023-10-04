@@ -44,12 +44,12 @@ namespace fizzbuzz
             return;
         }
 
-        if(target_result.is_buzz)
+        if(target_result.is_fizz)
         {
             std::printf("\e[31m");
             std::printf("Fizz");
         }
-        if(target_result.is_fizz)
+        if(target_result.is_buzz)
         {
             std::printf("\e[34m");
             std::printf("Buzz");
