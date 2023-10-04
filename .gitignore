@@ -1,12 +1,2 @@
-# init
-*
-*/
-
-# allow_git
-!.git/*
-!.gitignore
-!.gitattributes
-
-# allow_list
-!*/src/*
-!README.md
+*.o
+/build
