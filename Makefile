@@ -2,7 +2,7 @@ CXX = clang++
 CXXFLAGS = -O2 -Wall
 TARGET = fizzbuzz
 SRCDIR = ./src
-SRCS = main.cpp fizzbuzz.cpp print_writter.cpp
+SRCS = main.cpp fizzbuzz.cpp print_writter.cpp json_writter.cpp
 BUILDDIR = ./build
 OBJS = $(SRCS:%.cpp=$(BUILDDIR)/%.o) 
 LIBS = -lstdc++
