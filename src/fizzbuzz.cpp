@@ -35,10 +35,16 @@ namespace fizzbuzz
 
     bool fizzbuzz::is_multiple(uint32_t target_value, uint32_t multiple)
     {
+        if(target_value == 0)
+        {
+            return false;
+        }
+
         if(target_value % multiple != 0)
         {
             return false;
         }
+
         return true;
     }
 }
