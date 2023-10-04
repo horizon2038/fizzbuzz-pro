@@ -1,18 +1,21 @@
 #include "fizzbuzz.hpp"
+#include "writter.hpp"
+#include "print_writter.hpp"
 
 #include <cstdlib>
 
 int main(int argc, char** argv)
 {
-    uint32_t count = 0;
-
     if(argc <= 1)
     {
         return 0;
     }
 
-    count = std::atoi(argv[1]); 
+    uint32_t count = std::atoi(argv[1]); 
 
-    fizzbuzz::fizzbuzz *my_fizzbuzz = new fizzbuzz::fizzbuzz();
+    fizzbuzz::writter *my_writter = new fizzbuzz::print_writter();
+    fizzbuzz::fizzbuzz *my_fizzbuzz = new fizzbuzz::fizzbuzz(*my_writter);
+
     my_fizzbuzz->run(count);
 }
+
