@@ -8,5 +8,5 @@
 !.gitattributes
 
 # allow_list
-!src/*
+!*/src/*
 !README.md
