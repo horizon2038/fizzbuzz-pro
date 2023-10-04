@@ -3,6 +3,7 @@
 FizzBuzz Proは何の生産性もないソフトウェアです. 
 
 ## DEMO
+![fizzbuzz-30](https://github.com/horizon2038/fizzbuzz-pro/blob/main/img/fizzbuzz_30.png?raw=true)
 
 ## Usage
 ``` bash
